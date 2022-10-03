@@ -1,6 +1,0 @@
-obj.control_median_diams = ...
-    obj.segment_tbl.median_segment_diam_um(cellfun(@(x) strcmp(x,'control')==1,...
-    obj.segment_tbl.label));
-obj.control_eb = vertcat(obj.control_tbl.avg_red_px_val{:,:});
-obj.test_median_diams = vertcat(obj.test_tbl.median_segment_diam_um{:,:});
-obj.test_eb = vertcat(obj.test_tbl.avg_red_px_val{:,:});
