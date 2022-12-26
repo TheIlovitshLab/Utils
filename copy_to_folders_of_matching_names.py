@@ -25,3 +25,4 @@ for file in os.listdir(src_dir):
         dst_path = os.path.join(dst_folder, file)
         # Copy the file to the destination
         shutil.copy(src_path, dst_path)
+        print(f'{file} copied to {dst_folder}')
