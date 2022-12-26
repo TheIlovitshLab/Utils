@@ -1,8 +1,8 @@
 path = uigetdir();
 pattern = '*'; % Change if neccassery
 [files,paths] = recdir(path,pattern);
-old_str = 'midbrain';
-new_str = 'hypothalamus';
+old_str = '50Ohm-square';
+new_str = 'ICI-console-50Ohm-square';
 for i = 1:length(files)
     old_name = fullfile(paths{i},files{i});
     if strfind(old_name,old_str)~=-1
